@@ -1,0 +1,43 @@
+
+A Tic Tac Toe project in C++ is a classic console-based game that demonstrates fundamental programming concepts, 
+including arrays, control structures, functions, and object-oriented programming. 
+The game provides an interactive experience where two players (or a player and the computer) compete to align three of their symbols in a row,
+column, or diagonal on a 3x3 grid.
+
+ **Project Overview**
+
+The Tic Tac Toe game in C++ typically features:
+- A 3x3 board displayed in the console using simple text graphics.
+- Two modes: single-player (against a basic AI) and two-player (both human players).
+- Turn-based gameplay, where players alternate marking their chosen cell with 'X' or 'O'.
+- Input validation to prevent overwriting already marked cells.
+- Win, draw, and ongoing game condition checks after each move.
+- Optionally, a scoring system, timed moves, or game history tracking.
+
+## **Technical Features**
+
+- **Board Representation:**  
+The board is implemented as a 3x3 two-dimensional array of characters. 
+Each cell initially contains a number (for easy selection), which gets replaced by 'X' or 'O' as players make their moves.
+
+- **Game Logic:**  
+  Functions are used to:
+  - Display the board after each move.
+  - Accept and validate player input.
+  - Check for win or draw conditions after every turn.
+  - Switch turns between players.
+
+- **Object-Oriented Design:**  
+More advanced implementations use classes for players and the game itself, 
+encapsulating data and behavior for better code organization and reusability.
+
+
+ **Learning Outcomes**
+
+Building a Tic Tac Toe game in C++ helps developers:
+- Understand and apply arrays, loops, and conditional statements.
+- Practice function decomposition and code modularity.
+- Gain experience with object-oriented programming (classes, encapsulation).
+- Implement basic file handling for saving game history or scores.
+
+
